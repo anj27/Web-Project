@@ -1,0 +1,28 @@
+<?php
+
+include ('connectsql.php');
+
+$sqlget = "SELECT * FROM cars";
+$sqldata = mysqli_query ($dbcon, $sqlget) or die('error getting data');
+
+echo "<table>";
+echo "<tr><th>cars_id</th><th>car_brand</th><th>car_type</th><th>car_name</th></tr>";
+
+while($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC)) {
+    echo "<tr><td>";
+    echo $row['cars_id'];
+    echo "</td><td>";
+    echo $row ['car_brand'];
+    echo "</td><td>";
+    echo $row ['car_type'];
+    echo "</td><td>";
+    echo $row ['car_name'];
+    echo "</td></tr>";
+    }
+
+echo "</table>";
+
+
+
+
+?>

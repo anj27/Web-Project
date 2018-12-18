@@ -1,0 +1,6 @@
+<?php
+
+DEFINE ('DB_USER', 'anujraichura');
+DEFINE ('DB_PSWD', 'LaKeRs@4!2');
+DEFINE ('DB_HOST', 'AHS0503-08');
+DEFINE ('DB_NAME', 'c9');
