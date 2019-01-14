@@ -1,12 +1,12 @@
 <style>
 	#qb{
-		color:white;
-		float: right;
-		display: inline;
+		color:white;				                                          /*Change table color to white*/
+		float: right;                                                         /*Move the table to the right border of the page*/
+	
 	}
 	span {
 		
-		float:right;
+		float:right;														
 		clear: both;
 	}
 </style>
